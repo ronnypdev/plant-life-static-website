@@ -23,9 +23,7 @@ body {
   line-height: 1.6;
   background-color: #ffffff;
   color: #2a2a2a;
-  /* overflow-x: hidden; */
-  margin: 40px auto;
-  width: 620px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -52,4 +50,17 @@ nav {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px 32px 5px 32px;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  min-height: 100vh;
 }
