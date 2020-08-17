@@ -63,6 +63,7 @@ main {
   z-index: 1;
   background-color: #ffffff;
   min-height: 100vh;
+  transition: transform 0.5s;
 }
 
 main.open {
