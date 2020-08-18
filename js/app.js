@@ -7,9 +7,9 @@ navToggle.addEventListener(
     mainTag.classList.toggle('open');
 
     if (mainTag.classList.contains('open')) {
-      event.target.innerHTML = `<img src="./images/close.svg" alt="hamburger menu button icon"> Close`;
+      navToggle.innerHTML = `<img src="./images/close.svg" alt="hamburger menu button icon"> Close`;
     } else {
-      event.target.innerHTML = `<img src="./images/menu.svg" alt="hamburger menu button icon"> Menu`;
+      navToggle.innerHTML = `<img src="./images/menu.svg" alt="hamburger menu button icon"> Menu`;
     }
   },
   false
