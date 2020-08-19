@@ -1,3 +1,5 @@
+//Main JS File Scripts
+
 const navToggle = document.querySelector('.toggle-nav');
 const mainTag = document.querySelector('main');
 
