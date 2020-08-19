@@ -29,23 +29,27 @@ body {
 nav {
   position: fixed;
   top: 0;
-  left: 0;
+  left: -240px;
   width: 240px;
   height: 100vh;
+  z-index: 2;
   background-color: #00b98d;
-  color: #ffffff;
   font-family: 'Young Serif';
   font-size: 24px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  transition: left 0.5s;
 }
 
 nav a {
   color: #ffffff;
   text-decoration: none;
   margin: 5px 32px 5px 32px;
+}
+
+nav.open {
+  left: 0;
 }
 
 main {
